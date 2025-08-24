@@ -28,6 +28,10 @@ public:
         cout<<balance<<endl;
         return balance;
     }
+    double calculateInterest(double rate)
+    {
+        return balance*(rate/100);
+    }
 };
 
 int main()
